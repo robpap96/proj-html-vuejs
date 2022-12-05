@@ -58,6 +58,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+header {
+    position: sticky;
+    z-index: 1000;
     .header-top {
         background-color: #353637;
         color: #929aa3;
@@ -76,4 +79,6 @@ export default {
             }
         }
     }
+
+}
 </style>

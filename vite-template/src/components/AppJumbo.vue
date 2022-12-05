@@ -20,12 +20,16 @@ export default {
 </script>
 
 <template>
-    <div class="jumbotron">
-        <div class="container">
+    <div class="jumbotron py-5">
+        <img src="../assets/driving-school.webp" alt="">
+        <div class="container py-5">
             <div class="row">
-                <div class="col-6">
-                    <h1>Drive with Avada</h1>
-                    <h3>We offer the finest driving tuition money can buy</h3>
+                <div class="col-6 py-5">
+                    <div class="p-5">
+                        <h1>Drive with Avada</h1>
+                        <h3>We offer the finest driving tuition money can buy</h3>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -34,11 +38,24 @@ export default {
 
 <style lang="scss" scoped>
 .jumbotron{
-    background-image: url('../assets/blogpost-10and2-700x441.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    // background-image: url('../assets/blogpost-10and2-700x441.jpg');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    img{
+        z-index: -1;
+        width: 100%;
+        position: absolute;
+        top: -155px;
+        max-height: 800px;
+        object-fit: cover;
+        filter: grayscale(100%) contrast(0.9);
+    }
     .col-6 {
         color: white;
+        h1 {
+            font-size: 50px;
+        }
     }
 }
 </style>
