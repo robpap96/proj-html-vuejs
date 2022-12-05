@@ -1,10 +1,10 @@
 <script>
-//import AppName  from './....AppName.vue'
+import AppJumbo  from './AppJumbo.vue'
 
 export default {
     name: 'AppHeader',
     components: {
-
+        AppJumbo,
     },
     defineProps :{
         //msg: String
@@ -53,6 +53,7 @@ export default {
                 </div>
             </div>
         </div>
+        <AppJumbo/>
     </header>
 </template>
 
