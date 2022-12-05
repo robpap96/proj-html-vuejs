@@ -61,6 +61,7 @@ export default {
 header {
     position: sticky;
     z-index: 1000;
+
     .header-top {
         background-color: #353637;
         color: #929aa3;

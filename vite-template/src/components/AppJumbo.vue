@@ -21,7 +21,9 @@ export default {
 
 <template>
     <div class="jumbotron py-5">
-        <img src="../assets/driving-school.webp" alt="">
+        <div class="filter">
+            <img src="../assets/driving-school.webp" alt="">
+        </div>
         <div class="container py-5">
             <div class="row">
                 <div class="col-6 py-5">
@@ -42,6 +44,7 @@ export default {
     // background-image: url('../assets/blogpost-10and2-700x441.jpg');
     // background-repeat: no-repeat;
     // background-size: cover;
+    
     img{
         z-index: -1;
         width: 100%;
@@ -49,7 +52,6 @@ export default {
         top: -155px;
         max-height: 800px;
         object-fit: cover;
-        filter: grayscale(100%) contrast(0.9);
     }
     .col-6 {
         color: white;

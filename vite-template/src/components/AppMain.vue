@@ -1,10 +1,10 @@
 <script>
-//import AppName  from './....AppName.vue'
+import FormSection  from './FormSection.vue'
 
 export default {
     name: 'AppMain',
     components: {
-
+        FormSection,
     },
     defineProps :{
         //msg: String
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-    <!-- <AppName/> -->
+   <FormSection/>
 </template>
 
 <style lang="scss" scoped>
