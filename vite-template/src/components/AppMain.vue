@@ -1,12 +1,14 @@
 <script>
 import FormSection  from './FormSection.vue'
 import StartLearningSection  from './StartLearningSection.vue'
+import CoursesSection  from './CoursesSection.vue'
 
 export default {
     name: 'AppMain',
     components: {
         FormSection,
         StartLearningSection,
+        CoursesSection,
     },
     defineProps :{
         //msg: String
@@ -22,8 +24,9 @@ export default {
 </script>
 
 <template>
-   <FormSection/>
-   <StartLearningSection/>
+    <FormSection/>
+    <StartLearningSection/>
+    <CoursesSection/>
 </template>
 
 <style lang="scss" scoped>
