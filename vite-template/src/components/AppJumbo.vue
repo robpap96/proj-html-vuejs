@@ -22,7 +22,7 @@ export default {
 <template>
     <div class="jumbotron py-5">
         <div class="filter">
-            <img src="../assets/driving-school.webp" alt="">
+            <img src="../assets/homepage-hero-background.jpg" alt="">
         </div>
         <div class="container py-5">
             <div class="row">
@@ -41,10 +41,6 @@ export default {
 <style lang="scss" scoped>
 .jumbotron{
     position: relative;
-    // background-image: url('../assets/blogpost-10and2-700x441.jpg');
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    
     img{
         z-index: -1;
         width: 100%;

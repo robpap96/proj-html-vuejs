@@ -18,9 +18,9 @@ export default {
 </script>
 
 <template>
-    <div class="section py-5" style="margin-top: 100px">
+    <div class="section p-4" style="margin-top: 100px">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row ">
                 <div class="col-6">
                     <h2 class="py-4">Get Behind The Wheel</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi maxime saepe repudiandae nulla obcaecati aliquam quia iusto exercitationem accusantium corrupti officiis commodi qui provident, ex deserunt nesciunt error eos cum.</p>
@@ -45,7 +45,7 @@ export default {
                             <div class="mb-5">
                                 <input type="text" class="form-control py-3" id="" placeholder="Location">
                             </div>
-                            <button type="submit" class="mybtn text-center">REQUEST A CALLBACK</button>
+                            <button @hover="" type="submit" class="mybtn text-center">REQUEST A CALLBACK</button>
                             </form>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ export default {
 <style lang="scss" scoped>
     .card {
         position: relative;
-        top: -70px;
+        top: -250px;
         z-index: 1000;
         -webkit-box-shadow: 0px 13px 15px 8px rgba(0,0,0,0.68); 
         box-shadow: 0px 13px 15px 8px rgba(0,0,0,0.68);
@@ -72,7 +72,7 @@ export default {
         font-size: 23px;  
         font-weight: lighter;
         color: #999aa3;
-        small {
+        small {
             font-size: 18px;
         }
     }
@@ -100,10 +100,10 @@ export default {
         background-color:#ffffff;
         color: #7abc64;
     }
-    // .mybtn:active {
-    //     position:relative;
-    //     top:1px;
-    // }
+    .mybtn:active {
+        position:relative;
+        top:1px;
+    }
 
         
     
