@@ -28,7 +28,7 @@ export default {
                         </div>
                         <div class="card-body text-center ">
                             <div class="container-fluid">
-                                <div class="row">
+                                <div class="row justify-content-center">
                                     <div class="col-6 p-5">
                                         <img src="../assets/blog-choosecar-700x441.jpg" alt="">
                                         <h4 class="py-2">What Car to Start With?</h4>
@@ -41,6 +41,7 @@ export default {
                                         <p><small>February 7th 2019 <span>0 comments</span></small></p>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
                                     </div>
+                                    <div class="col-4"><button class="my-btn">MORE FROM THE BLOG</button></div>
                                 </div>
                             </div>
                         </div>
@@ -86,5 +87,26 @@ export default {
         bottom: -101px;
         left: 0px;
         width: 100%;
+    }
+    .my-btn {
+        background-color:#7abc64;
+        border-radius:23px;
+        border:2px solid #7abc64;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:18px;
+        padding:14px 48px;
+        text-decoration:none;
+        text-shadow:0px 0px 2px #2f6627;
+    }
+    .my-btn:hover {
+        background-color:#ffffff;
+        color: #7abc64;
+    }
+    .my-btn:active {
+        position:relative;
+        top:1px;
     }
 </style>
