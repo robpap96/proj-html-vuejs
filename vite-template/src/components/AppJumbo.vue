@@ -45,7 +45,7 @@ export default {
         z-index: -1;
         width: 100%;
         position: absolute;
-        top: -155px;
+        top: -157px;
         max-height: 800px;
         object-fit: cover;
     }
