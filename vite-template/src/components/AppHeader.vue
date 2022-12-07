@@ -32,21 +32,21 @@ export default {
         <div class="header-bottom">
             <div class="container">
                 <div class="row justify-content-between align-items-center py-5">
-                    <div class="col-3">
-                        <div class="logo">
+                    <div class="col-2">
+                        <div class="logo d-flex align-items-center">
                             <img src="../assets/avada-drivers-logo-2x.png" alt="">
                         </div>
                     </div>
-                    <div class="col-8 ">
+                    <div class="col-9 ">
                         <div class="nav-bar">
-                            <ul class="d-flex mb-0">
+                            <ul class="d-flex mb-0 align-items-center">
                                 <li>HOME</li>
                                 <li>ABOUT</li>
                                 <li>PRICES</li>
-                                <li><span>COURSERS</span></li>
+                                <li class="d-flex">COURSERS<span class="badge bg-success ms-2">New</span></li>
                                 <li>LOCATION</li>
                                 <li>BLOG</li>
-                                <li><button class="book-now-btn ms-3">BOOK NOW</button></li>
+                                <li><button class="my-btn ms-3">BOOK NOW</button></li>
                             </ul>
                         </div>
                     </div>
@@ -71,14 +71,41 @@ header {
         ul{
             list-style: none;
             li{
+                color: #ffffff;
+                font-weight: bold;
                 padding: 0 20px;
+            }
+            li:hover:not(:last-child) {
+                color: #7abc64;
+                border-bottom: 2px solid #7abc64;
             }
         }
         .logo {
             img {
-                max-width: 100% ;
+                width: 160% ;
             }
         }
+    }
+    .my-btn {
+        background-color:#7abc64;
+        border-radius:23px;
+        border:2px solid #7abc64;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:16px;
+        padding:10px 20px;
+        text-decoration:none;
+        text-shadow:0px 0px 2px #2f6627;
+    }
+    .my-btn:hover {
+        background-color:#ffffff;
+        color: #7abc64;
+    }
+    .my-btn:active {
+        position:relative;
+        top:1px;
     }
 
 }

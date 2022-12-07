@@ -18,89 +18,95 @@ export default {
 </script>
 
 <template>
-    <div class="container py-5 mt-5">
-        <div class="row">
-            <div class="col-8">
-                <h2 class="p-3">Your Istructors</h2>
-                <p class="py-2 px-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima et vero ducimus tenetur incidunt magni quo. Molestiae et voluptatibus.</p>
-            </div>
-            <div class="col-4 py-5">
-                <button @hover="" type="submit" class="mybtn text-center ">MORE ABOUT US</button>
-            </div>
-            <div class="col-4">
-                <div class="card py-3 px-1">
-                    <div class="istructors-image p-3">
-                        <img src="../assets/instructor-mikehart-600x381.jpg" alt="">
+    <section class="your-instructor py-5">
 
-                    </div>
-                    <div class="card-body text-center ">
-                        <h5 class="card-title p-2">Mike Hart</h5>
-                        <div class="social-links d-flex justify-content-between">
-                            <div class="twitter ">
-                                <i class="fa-brands fa-twitter"></i>
-                            </div>
-                            <div class="facebook">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </div>
-                            <div class="instagram">
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>
+        <div class="container py-5 mt-5">
+            <div class="row">
+                <div class="col-8 py-4">
+                    <h2 class="p-3">Your Istructors</h2>
+                    <p class="py-2 px-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima et vero ducimus tenetur incidunt magni quo. Molestiae et voluptatibus.</p>
+                </div>
+                <div class="col-4 py-5">
+                    <button @hover="" type="submit" class="mybtn text-center ">MORE ABOUT US</button>
+                </div>
+                <div class="col-4">
+                    <div class="card py-3 px-1">
+                        <div class="istructors-image p-3">
+                            <img src="../assets/instructor-mikehart-600x381.jpg" alt="">
+    
                         </div>
-                        <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit adj jdhrb dbd asbduh ahnbe absdnf a bssaje.</h6>
+                        <div class="card-body text-center ">
+                            <h5 class="card-title p-2">Mike Hart</h5>
+                            <div class="social-links d-flex justify-content-between">
+                                <div class="twitter ">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div class="instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                            <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit adj jdhrb dbd asbduh ahnbe absdnf a bssaje.</h6>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="card py-3 px-1">
-                    <div class="istructors-image p-3">
-                        <img src="../assets/instructor-johnsmith-600x381.jpg" alt="">
-
-                    </div>
-                    <div class="card-body text-center">
-                        <h5 class="card-title p-2">John Smith</h5>
-                        <div class="social-links d-flex justify-content-between">
-                            <div class="twitter ">
-                                <i class="fa-brands fa-twitter"></i>
-                            </div>
-                            <div class="facebook">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </div>
-                            <div class="instagram">
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>
+                <div class="col-4">
+                    <div class="card py-3 px-1">
+                        <div class="istructors-image p-3">
+                            <img src="../assets/instructor-johnsmith-600x381.jpg" alt="">
+    
                         </div>
-                        <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit adj jdhrb dbd asbduh ahnbe absdnf a bssaje.</h6>
+                        <div class="card-body text-center">
+                            <h5 class="card-title p-2">John Smith</h5>
+                            <div class="social-links d-flex justify-content-between">
+                                <div class="twitter ">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div class="instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                            <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit adj jdhrb dbd asbduh ahnbe absdnf a bssaje.</h6>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="card py-3 px-1">
-                    <div class="istructors-image p-3">
-                        <img src="../assets/instructor-angelahart-600x381.jpg" alt="">
-
-                    </div>
-                    <div class="card-body text-center">
-                        <h5 class="card-title p-2">Angela Hart</h5>
-                        <div class="social-links d-flex justify-content-between">
-                            <div class="twitter ">
-                                <i class="fa-brands fa-twitter"></i>
-                            </div>
-                            <div class="facebook">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </div>
-                            <div class="instagram">
-                                <i class="fa-brands fa-instagram"></i>
-                            </div> 
+                <div class="col-4">
+                    <div class="card py-3 px-1">
+                        <div class="istructors-image p-3">
+                            <img src="../assets/instructor-angelahart-600x381.jpg" alt="">
+    
                         </div>
-                        <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit adj jdhrb dbd asbduh ahnbe absdnf a bssaje.</h6>
+                        <div class="card-body text-center">
+                            <h5 class="card-title p-2">Angela Hart</h5>
+                            <div class="social-links d-flex justify-content-between">
+                                <div class="twitter ">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div class="instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div> 
+                            </div>
+                            <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit adj jdhrb dbd asbduh ahnbe absdnf a bssaje.</h6>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>
+    .your-instructor {
+        margin: 100px 0;
+    }
     .card {
         border-top: 6px solid #7abc64;
 

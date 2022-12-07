@@ -92,8 +92,10 @@ export default {
                     </div>
                 </div>
                 <div class="col-3 px-5 d-flex justify-content-center flex-wrap">
+                    <div class="image">
 
-                        <img src="../assets/Schermata 2022-12-07 alle 22.54.45.png" alt="">
+                        <img src="../assets/Schermata 2022-12-07 alle 23.35.24.png" alt="">
+                    </div>
 
                     <div class="my-btn">BOOK NOW</div>
                 </div>
