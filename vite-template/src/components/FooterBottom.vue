@@ -1,12 +1,8 @@
 <script>
-import FooterTop from './FooterTop.vue';
-import FooterBottom from './FooterBottom.vue';
-
 export default {
-    name: 'AppFooter',
+    name: 'FooterBottom',
     components: {
-        FooterTop,
-        FooterBottom
+
     },
     defineProps :{
         //msg: String
@@ -22,10 +18,9 @@ export default {
 </script>
 
 <template>
-    <FooterTop/>
-    <FooterBottom/>
+
+
 </template>
 
 <style lang="scss" scoped>
-
 </style>

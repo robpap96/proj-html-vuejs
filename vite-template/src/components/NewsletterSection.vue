@@ -48,6 +48,7 @@ export default {
         background-image: url('../assets/newsletter_background.jpg');
         background-size: cover;
         background-repeat: no-repeat;
+        padding-bottom: 100px;
     }
 
     .my-btn {
