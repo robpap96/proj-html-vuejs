@@ -3,6 +3,7 @@ import FormSection  from './FormSection.vue'
 import StartLearningSection  from './StartLearningSection.vue'
 import CoursesSection  from './CoursesSection.vue'
 import YourIstructors  from './YourIstructors.vue'
+import TestimonialSection  from './TestimonialSection.vue'
 
 export default {
     name: 'AppMain',
@@ -11,6 +12,7 @@ export default {
         StartLearningSection,
         CoursesSection,
         YourIstructors,
+        TestimonialSection,
     },
     defineProps :{
         //msg: String
@@ -30,6 +32,7 @@ export default {
     <StartLearningSection/>
     <CoursesSection/>
     <YourIstructors/>
+    <TestimonialSection/>
 </template>
 
 <style lang="scss" scoped>
