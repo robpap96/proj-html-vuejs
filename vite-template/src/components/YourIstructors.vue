@@ -29,40 +29,70 @@ export default {
             </div>
             <div class="col-4">
                 <div class="card py-3 px-1">
-                    <div class="istructors-image p-5">
+                    <div class="istructors-image p-3">
                         <img src="../assets/instructor-mikehart-600x381.jpg" alt="">
 
                     </div>
-                    <div class="card-body text-center">
-                        <h5 class="card-title p-2">Courses</h5>
-                        <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptates omnis voluptatem asperiores, reprehenderit autem quam repellat illo accusantium reiciendis veniam corrupti alias nulla officiis! Iusto sint tenetur deserunt odit.</h6>
-                        <button @hover="" type="submit" class="mybtn text-center">COURSE INFORMATION</button>
+                    <div class="card-body text-center ">
+                        <h5 class="card-title p-2">Mike Hart</h5>
+                        <div class="social-links d-flex justify-content-between">
+                            <div class="twitter ">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                        <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit adj jdhrb dbd asbduh ahnbe absdnf a bssaje.</h6>
                     </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card py-3 px-1">
-                    <div class="istructors-image p-5">
+                    <div class="istructors-image p-3">
                         <img src="../assets/instructor-johnsmith-600x381.jpg" alt="">
 
                     </div>
                     <div class="card-body text-center">
-                        <h5 class="card-title p-2">Courses</h5>
-                        <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptates omnis voluptatem asperiores, reprehenderit autem quam repellat illo accusantium reiciendis veniam corrupti alias nulla officiis! Iusto sint tenetur deserunt odit.</h6>
-                        <button @hover="" type="submit" class="mybtn text-center">COURSE INFORMATION</button>
+                        <h5 class="card-title p-2">John Smith</h5>
+                        <div class="social-links d-flex justify-content-between">
+                            <div class="twitter ">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                        <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit adj jdhrb dbd asbduh ahnbe absdnf a bssaje.</h6>
                     </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card py-3 px-1">
-                    <div class="istructors-image p-5">
+                    <div class="istructors-image p-3">
                         <img src="../assets/instructor-angelahart-600x381.jpg" alt="">
 
                     </div>
                     <div class="card-body text-center">
-                        <h5 class="card-title p-2">Courses</h5>
-                        <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptates omnis voluptatem asperiores, reprehenderit autem quam repellat illo accusantium reiciendis veniam corrupti alias nulla officiis! Iusto sint tenetur deserunt odit.</h6>
-                        <button @hover="" type="submit" class="mybtn text-center">COURSE INFORMATION</button>
+                        <h5 class="card-title p-2">Angela Hart</h5>
+                        <div class="social-links d-flex justify-content-between">
+                            <div class="twitter ">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div> 
+                        </div>
+                        <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit adj jdhrb dbd asbduh ahnbe absdnf a bssaje.</h6>
                     </div>
                 </div>
             </div>
@@ -71,6 +101,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+    .card {
+        border-top: 6px solid #7abc64;
+
+        -webkit-box-shadow: 0px 13px 15px 8px rgba(0,0,0,0.68); 
+        box-shadow: 0px 13px 15px 8px rgba(0,0,0,0.68);
+    }
     .mybtn {
     background-color:#7abc64;
     border-radius:23px;
@@ -105,5 +141,17 @@ export default {
     }
     .istructors-image img{
         width: 100%;
+    }
+    .card-title {
+        color: #494c54;
+    }
+    .card-subtitle {
+        color: #bebdbd;
+        line-height: 30px;
+    }
+    .social-links {
+        color: #bebdbd;
+        width: 20%;
+        margin-left: 40%;
     }
 </style>

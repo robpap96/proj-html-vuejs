@@ -294,6 +294,10 @@ section {
         font-weight: 100;
         text-anchor: middle;
     }
+    .percentage-card {
+        border-top: 6px solid #7abc64;
+
+    }
     .percentage-card .card-title{
        font-size: 18px;
        font-weight: 300;
