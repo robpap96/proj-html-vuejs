@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-    <section class="testimonial-section">
+    <section class="testimonial-section pb-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-8 py-5 mt-5">

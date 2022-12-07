@@ -20,28 +20,31 @@ export default {
 <template>
     <section class="latest-news">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card py-3 px-1">
-                    <div class="istructors-image p-3">
-                        <img src="../assets/instructor-mikehart-600x381.jpg" alt="">
-
-                    </div>
-                    <div class="card-body text-center ">
-                        <h5 class="card-title p-2">Mike Hart</h5>
-                        <div class="social-links d-flex justify-content-between">
-                            <div class="twitter ">
-                                <i class="fa-brands fa-twitter"></i>
-                            </div>
-                            <div class="facebook">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </div>
-                            <div class="instagram">
-                                <i class="fa-brands fa-instagram"></i>
+            <div class="row justify-content-center">
+                <div class="col-10 pb-5">
+                    <div class="card py-5 px-1">
+                        <div class="title text-center py-3">
+                            <h2>Latest News</h2>
+                        </div>
+                        <div class="card-body text-center ">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-6 p-5">
+                                        <img src="../assets/blog-choosecar-700x441.jpg" alt="">
+                                        <h4 class="py-2">What Car to Start With?</h4>
+                                        <p><small>February 7th 2019 <span>0 comments</span></small></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                                    </div>
+                                    <div class="col-6 p-5">
+                                        <img src="../assets/blogpost-10and2-700x441.jpg" alt="">
+                                        <h4 class="py-2">Avada Driving School Expanding</h4>
+                                        <p><small>February 7th 2019 <span>0 comments</span></small></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                            <h6 class="card-subtitle text-center py-5 px-3 text-muted">Lorem ipsum dolor sit adj jdhrb dbd asbduh ahnbe absdnf a bssaje.</h6>
-                        </div>
+                        <img id="arrow-btm" src="../assets/latestnews-bottom.png" alt="">
                     </div>
                 </div>
             </div>
@@ -49,11 +52,39 @@ export default {
     </section>
 </template>
 
-<script lang="scss" scoped>
+<style lang="scss" scoped>
+    section {
+        background-image: url('../assets/latestnews-background.jpg');        
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-bottom: 100px;
+    }
     .card {
         border-top: 6px solid #7799ad;
-
+        position: relative;
+        top: -50px;
         -webkit-box-shadow: 0px 13px 15px 8px rgba(0,0,0,0.68); 
         box-shadow: 0px 13px 15px 8px rgba(0,0,0,0.68);
+        border-radius: 15px 15px 0 0;
+        border-bottom: 8px solid white;
     }
-</script>
+    h2 {
+        font-size: 50px;
+    }
+    h4, span {
+        color: #7abc64;
+    }
+    p, small {
+        color: #ae9aa3;
+    }
+    img {
+        width: 100%;
+    }
+    #arrow-btm {
+        position: absolute;
+        bottom: -101px;
+        left: 0px;
+        width: 100%;
+    }
+</style>
