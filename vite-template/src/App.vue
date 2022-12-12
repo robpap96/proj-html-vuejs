@@ -22,4 +22,6 @@ export default {
 
 <style lang="scss">
     @import './style/global.scss';
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
 </style>
